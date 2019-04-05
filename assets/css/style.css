@@ -1,0 +1,115 @@
+#bgImage{
+    height: 250px;
+    width: 300px;
+   visibility: hidden;
+    overflow: hidden;
+}
+section,div{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    visibility: hidden;   
+}
+
+.carousel{
+    clear: both;
+}
+.head1{
+    transform: translateX(-300px);
+}
+.line{
+    opacity: 0;
+}
+.head2{
+    transform: translateX(300px);
+}
+
+.prod1{
+    opacity: 0;
+}
+.prod2{
+    margin-left:300px;
+}
+.btn-con{
+    padding-top: 215px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+button{
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0);
+    color: #ffffff;
+    border: 2px solid white;
+    padding: 3px 15px;
+  
+}
+.car{
+ opacity: 0;
+}
+#arrContainer{
+    padding-top: 50px;
+}
+.arrowLeft{
+    visibility: hidden;
+}
+
+.arrowRight{
+    float: right;
+     opacity: 0;
+}
+.check{
+    border: 1px solid red;
+}
+.fadeIn {
+    visibility: visible;
+   opacity: 1;
+   transition: 3s ease-in-out;
+   -moz-transition: 3s ease-in-out;
+   -webkit-transition:  3s ease-in-out;
+}
+
+.slideLeft{
+    visibility: visible;
+    transform: translateX(0px);
+    transition: 3s ease-in-out;
+   -moz-transition: 3s ease-in-out;
+   -webkit-transition:  3s ease-in-out;
+}
+.slideRight{
+    visibility: visible;
+    transform: translateX(0px);
+    transition: 3s ease-in-out;
+   -moz-transition: 3s ease-in-out;
+   -webkit-transition:  3s ease-in-out;
+}
+
+
+.fadeOut{
+   display: none;
+    transition: 3s ease-in-out;
+   -moz-transition: 3s ease-in-out;
+   -webkit-transition:  3s ease-in-out;
+}
+.fadeInH3Shopn{
+    visibility: visible;
+    transition: 3s ease-in-out;
+   -moz-transition: 3s ease-in-out;
+   -webkit-transition:  3s ease-in-out; 
+}
+.fadeInProd1Btn{
+    visibility: visible;
+    opacity: 1;
+    transition: 3s ease-in-out;
+   -moz-transition: 3s ease-in-out;
+   -webkit-transition:  3s ease-in-out; 
+}
+.carouselSlideLeft{
+    transition: 3s ease-in-out;
+    -moz-transition: 3s ease-in-out;
+    -webkit-transition:  3s ease-in-out; 
+}
+.carouselSlideRight{
+    transition: 3s ease-in-out;
+    -moz-transition: 3s ease-in-out;
+    -webkit-transition:  3s ease-in-out; 
+}
